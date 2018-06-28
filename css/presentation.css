@@ -10,7 +10,7 @@
     url("../fonts/OpenSans/Open_Sans_Normal.svg#OpenSans_Regular") format("svg"); /* Legacy iOS */
 }
 
-@font-face {
+@font-face { 
     font-family: "OpenSans_Bold";
 
     src: url("../fonts/OpenSans/Open_Sans_Bold.eot"); /* IE9 Compat Modes */
