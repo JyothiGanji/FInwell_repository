@@ -329,7 +329,7 @@ div.promo__item.promo__item--bottom {
     position: relative;
     overflow: visible;
     margin: 0 auto;
-    padding-left: 258px;
+    padding: 0px 0px 0px 258px;
 }
 
 .timeline__cover {
@@ -775,7 +775,7 @@ div.promo__item.promo__item--bottom {
     }
 
     .timeline__controls--left {
-        width: 155px;
+        width: 160px;
     }
 
     .timeline__controls--center {
