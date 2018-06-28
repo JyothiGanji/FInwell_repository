@@ -21,6 +21,10 @@
     url("../fonts/OpenSans/Open_Sans_Bold.svg#OpenSans_Regular") format("svg"); /* Legacy iOS */
 }
 
+.timeline-volume :hover {
+	display: block;
+}
+
 /* Taken from Bootstrap */
 .sr-only {
     position: absolute;
@@ -40,8 +44,9 @@
 }
 
 .top-wrapper {
-    background-color: #bababa;
+    background-color: #f2f2f2;
     background-image: url("../images/background_tile.png");
+	 background-repeat: no-repeat;
     /**background-image: url(https://thumbs.dreamstime.com/b/decorative-red-bow-red-ribbon-black-background-d-realistic-vector-illustration-decorative-red-bow-red-ribbon-black-112149536.jpg);**/
     /**background: linear-gradient(to bottom right, #04c2f2, #8fea6b);**/
 }
@@ -341,7 +346,7 @@ border-bottom-right-radius: 6%;
 
 .timeline {
     color:#FFFFFF;
-    background-color:#000000;
+    background-color:#f0f0f0;
     font-size: 20px;
 }
 
@@ -540,7 +545,7 @@ border-bottom-right-radius: 6%;
 }
 
 .timeline-progress {
-    background-color: #704a1e;
+    background-color: #078bab;
 }
 
 .timeline-chapters--seen {
@@ -774,6 +779,7 @@ border-bottom-right-radius: 6%;
 
     .timeline {
         font-size: 16px;
+		width:86%;
     }
 
     .timeline__button--skip-back,
@@ -782,7 +788,7 @@ border-bottom-right-radius: 6%;
     }
 
     .timeline__button--play-pause {
-        width: 66px;
+        width: 50px;
     }
 
     .fullscreen .timeline__button-icon {
