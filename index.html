@@ -125,13 +125,12 @@
                 </div>
             </div>
 
-            <div id="jsPromoContainerDesktop" class="promo promo--side jsPromoContainer"></div>
+            <!-- <div id="jsPromoContainerDesktop" class="promo promo--side jsPromoContainer"></div> -->
 
             <br class="clearfix" />
 
-            
+            </div>
         </main>
-		 <div id="jsTimelineControlsRight" class="timeline__controls timeline__controls--right">
 		 <div id="jsTimeline" aria-controls="videoPlayerIframe" class="timeline">
                 <div id="jsTimelineCover" class="timeline__cover"></div>
 
@@ -320,10 +319,27 @@
 
                     <button id="jsVolumeButton" type="button" class="jsTimelineButton timeline__button timeline__button--volume no-focus">
                         <span id="jsVolumeButtonIcon" class="timeline__button-icon timeline__button-icon--volume-2"></span>
+                        <span class="sr-only translate" data-translate="VolumeButtonText">Volume</span>
+                    </button>
 
-            </div>
-    </div>
-		
+                    <div id="jsVolume" class="timeline-volume">
+                        <div id="jsVolumeBar" class="timeline-volume__bg"></div>
+                        <div id="jsVolumeLevelContainer" class="timeline-volume__container">
+                            <div id="jsVolumeLevel" class="timeline-volume__level">
+                                <div id="jsVolumeBall" class="timeline-volume__ball"></div>
+                                <span id="jsVolumeButtonSRText" class="sr-only translate" data-translate="VolumeButtonText">Volume</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button id="jsFullScreenButton" type="button" class="jsTimelineButton timeline__button timeline__button--fullscreen no-focus">
+                        <span id="jsFullScreenIcon" class="timeline__button-icon timeline__button-icon--fullscreen"></span>
+                        <span class="sr-only translate" data-translate="FullScreenButtonText">Full Screen</span>
+                    </button>
+                </div>
+           
+		 <!-- <div id="jsTimelineControlsRight" class="timeline__controls timeline__controls--right"> -->
+    <!-- </div> -->
 
     <div id="jsBottomWrapper" class="bottom-wrapper bottom-wrapper--no-cta bottom-wrapper--no-promo">
 
