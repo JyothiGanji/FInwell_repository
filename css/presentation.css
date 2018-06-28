@@ -21,10 +21,6 @@
     url("../fonts/OpenSans/Open_Sans_Bold.svg#OpenSans_Regular") format("svg"); /* Legacy iOS */
 }
 
-.timeline-volume :hover {
-	display: block;
-}
-
 /* Taken from Bootstrap */
 .sr-only {
     position: absolute;
@@ -45,7 +41,7 @@
 
 .top-wrapper {
     background-color: #f2f2f2;
-    background-image: url("/images/background_tile.png");
+    background-image: url("../images/background_tile.png");
 	 background-repeat: no-repeat;
     /**background-image: url(https://thumbs.dreamstime.com/b/decorative-red-bow-red-ribbon-black-background-d-realistic-vector-illustration-decorative-red-bow-red-ribbon-black-112149536.jpg);**/
     /**background: linear-gradient(to bottom right, #04c2f2, #8fea6b);**/
